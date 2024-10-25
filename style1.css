@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #3f3f3f;
+    color: #f0f0f0;
+    text-align: center;
+    height: 100px;
+}
+
+
+.title{
+    /* border: solid 1px red; */
+    padding-top: 20px;
+}
+
+
+.pagelink{
+    /* border: solid 1px red; */
+    padding-top: 10px;
+    
+}
+
+.Tem , .Viewlog {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+ul{
+    color: #f0f0f0;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul li:hover::marker{
+    color: greenyellow;
+}
+
+.Tem:hover, .Viewlog:hover{
+    background-color: #f0f0f0;
+    color: #3f3f3f;
+    /* opacity: 0.7; */
+    border-radius: 5px;
+}
+
+.container{
+    background-color: lightgray;
+    max-width: 1190px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    
+}
+
+.card{
+    border: solid 1px #3f3f3f;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px; 
+    transform: 0.3;
+    /* padding: 0.5rem; */
+}
+
+.data{
+    padding: 0.5rem;
+    /* background-color: lightblue; */
+    color: #3f3f3f;
+}
+
+.card:hover .data{
+    opacity: 0.9;
+    background-color: #3f3f3f;
+    color: #f0f0f0;
+}
+
+.footer{
+    background-color: #3f3f3f;
+    height: 120px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext a{
+    color: #f0f0f0;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: 0.3;
+}
+
+
+.icon a:hover{
+    background-color: #f0f0f0;
+    color: #3f3f3f;
+    opacity: 0.9;
+    width: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #3f3f3f;
+    color: #f0f0f0;
+    text-align: center;
+    height: 100px;
+}
+
+
+.title{
+    /* border: solid 1px red; */
+    padding-top: 20px;
+}
+
+
+.pagelink{
+    /* border: solid 1px red; */
+    padding-top: 10px;
+    
+}
+
+
+.Tem , .Viewlog {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+#myform{
+    margin-top: 1rem;
+}
+
+.pagelink ul{
+    color: #f0f0f0;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 15px;
+}
+
+.pagelink ul li:hover::marker{
+    color: greenyellow;
+}
+
+.Tem:hover, .Viewlog:hover{
+    background-color: #f0f0f0;
+    color: #3f3f3f;
+    /* opacity: 0.7; */
+    border-radius: 5px;
+}
+
+.container{
+    background-color: lightgray;
+    max-width: 1190px;
+    margin: 0 auto;
+    height: 70vh;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 0.5rem; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    max-width: 400px;
+    width: 50vw;
+    min-width: 280px;
+    border: solid 1px #3f3f3f;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px; 
+    transform: 0.3;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}  
+
+.data{
+    padding: 0.5rem;
+    /* background-color: lightblue; */
+    color: #3f3f3f;
+}
+
+
+input{
+   width: 30vw;
+   max-width: 250px;
+   min-width: 249px;
+   border-radius: 5px;
+   border: none;
+}
+
+input:hover{
+    opacity: 0.7;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+}
+
+button:hover{
+    background-color: #1877F2;
+    color: #f0f0f0;
+}
+
+.footer{
+    background-color: #3f3f3f;
+    height: 100px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext a{
+    color: #f0f0f0;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: 0.3;
+}
+
+
+.icon a:hover{
+    background-color: #f0f0f0;
+    color: #3f3f3f;
+    opacity: 0.9;
+    width: 20px;
+    border-radius: 5px;
+}
